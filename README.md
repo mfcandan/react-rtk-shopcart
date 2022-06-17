@@ -1,5 +1,5 @@
 # React, Redux Toolkit Basic Shopcart App
-In the project directory, you can run:
+This is basic redux toolkit crud app with mockdata
 
 ![Screenshot](screenshot.png)
 ## Available Scripts
