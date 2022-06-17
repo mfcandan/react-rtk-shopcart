@@ -5,13 +5,13 @@ Variables
 */
 
 :root {
-  --clr-primary: #645cff;
-  --clr-primary-dark: #282566;
-  --clr-primary-light: #a29dff;
+  --clr-primary: #151515;
+  --clr-primary-dark: #FBC403;
+  --clr-primary-light: #FFDD03;
   --clr-grey-1: #102a42;
   --clr-grey-5: #617d98;
   --clr-grey-10: #f1f5f8;
-  --clr-white: #fff;
+  --clr-white: #FBFCD4;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --transition: all 0.3s linear;
@@ -172,6 +172,9 @@ Cart
   margin-top: 40px;
   padding: 2.5rem 0;
   max-width: var(--fixed-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .cart h2 {
   text-transform: uppercase;
@@ -223,6 +226,7 @@ Cart Item
   grid-template-columns: auto 1fr auto;
   grid-column-gap: 1.5rem;
   margin: 1.5rem 0;
+  min-width: 40vw;
 }
 .cart-item img {
   width: 5rem;
