@@ -1,5 +1,5 @@
-# React, Redux Toolkit Basic Shopcart App
-This is basic redux toolkit crud app with mockdata
+# React, Redux Toolkit Shopcart App
+This is Shopcart App built Redux Toolkit Crud app with mockdata
 
 ![Screenshot](screenshot.png)
 ## Available Scripts
